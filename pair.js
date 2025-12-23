@@ -34,7 +34,7 @@ const {
     prepareWAMessageMedia,
     generateWAMessageFromContent,
     S_WHATSAPP_NET
-} = require('@yaoii-bails/baileys');
+} = require('baileys');
 
 const config = {
     AUTO_VIEW_STATUS: 'true',
