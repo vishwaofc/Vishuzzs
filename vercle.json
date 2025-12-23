@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "/pair.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/main.html"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "mongodb+srv://knight_rider:GODGURU12345@knight.jm59gu9.mongodb.net/ASHUMD?retryWrites=true&w=majority"
+  }
+}
